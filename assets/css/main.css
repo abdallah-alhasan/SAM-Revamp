@@ -150,9 +150,6 @@ section h2{
     padding: 0 25px;
     margin: 0;
 }
-.MenuFullScreen .widget_nav_menu ul li:first-child{
-    display: none;
-}
 
 .MenuFullScreen ul li ul {
     list-style: circle;
@@ -188,7 +185,7 @@ section h2{
     text-decoration: none;
 }
 .menu-item-has-children::after {
-    background: url(https://soukalmarfa.ae/wp-content/uploads/2021/04/plus_03.png);
+    background: url(../uploads/2021/04/plus_03.png);
     background-repeat: no-repeat;
     background-position: right 0px center;
     padding-right: 0;
@@ -217,7 +214,7 @@ section h2{
 
 .socialMen h2 {
     margin: 0px !important;
-    background: url(https://soukalmarfa.ae/wp-content/uploads/2021/04/socalIcons.png);
+    background: url(../uploads/2021/04/socalIcons.png);
     background-repeat: no-repeat;
     background-position: left center;
     font-size: 14px;
@@ -767,7 +764,7 @@ li>ol {
     }
 
     .expand-menu a::after , .toggle-icon::after{
-        content: url(https://soukalmarfa.ae/wp-content/uploads/2021/04/menuIcon.png);
+        content: url(../uploads/2021/04/menuIcon.png.webp);
         background-repeat: no-repeat;
         height: 20px !important;
         width: 20px;
@@ -1378,7 +1375,7 @@ section p {
     position: absolute;
     right: 0px;
     top: 0px;
-    background: #027ab3 url(https://soukalmarfa.ae/wp-content/uploads/2021/03/planeIcon.png);
+    background: #027ab3 url(../uploads/2021/03/planeIcon.png);
     font-size: 0;
     width: 62px;
     height: 57px;
@@ -1500,7 +1497,7 @@ section p {
     left: 0px;
     right: 0px;
     top: 39px;
-    background: url(https://soukalmarfa.ae/wp-content/uploads/2021/04/carret.png);
+    background: url(../uploads/2021/04/carret.png);
     background-repeat: no-repeat;
     background-position: center top 0px;
     width: 21px;
@@ -1830,7 +1827,7 @@ section p {
     padding-top: 0;
 }
 #marine-content-section{
-    background: url("https://soukalmarfa.ae/wp-content/uploads/2021/05/marineBg.jpg?id=3657") center 20%;
+    background: url("../uploads/2021/05/marineBg.jpg?id=3657") center 20%;
     padding-bottom: 0;
 }
 #marine-content-section
@@ -2027,7 +2024,7 @@ section p {
     justify-content: center;
 }
 @media screen and (min-width: 768px) {
-    .blogs-modify .news-card:nth-child(7n+1) {
+    .blogs-modify .news-card:nth-child(7n+1):not([style*="display: none"]) {
         min-height: unset;
         grid-template-columns: 50% auto;
         grid-template-rows: auto;
